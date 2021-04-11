@@ -1,0 +1,55 @@
+.container{
+    background-image: url("images/colour.jpg");
+    align-content: center;
+    margin: 80px 50px 50px 100px ;
+    justify-self: center;
+    /* background-color: yellow; */
+    background-size: cover;
+    background-position: center center;
+    width: 30cm;
+    height: 12cm;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px;
+    display: flex;
+    flex-direction: column;    
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-family: monospace;
+    font-size: 50px;
+}
+.countdown-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+.timer{
+    font-size: 70px;
+    margin: 0 4rem;
+    font-family: sans-serif;
+}
+
+span{
+    margin-left: 4rem;
+    font-size: 2em;
+}
+h2{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+.currentTime{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+
